@@ -1,24 +1,66 @@
 .glavnaya{
-  
+    background: #F5F5F5;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     /*height: 550px;*/
     height: 100vh;
+    /*justify-content: center;
+    align-items: center;*/
+    flex-direction: column;
   }
   
+
+  .one__gl{
+    display: flex;
+    justify-content: center;
+   align-items: center; 
+  }
+
+
+  .container__glavnaya{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+
+
+  .glavnaya__one{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
   .glavnaya__box{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
     
   
   }
+
+  .glavnaya__pictures{
+    /*overflow-x:  hidden;*/ 
+    
+   
+    margin-top: 0;
+    margin-left: -100px;
+    border-radius: 50%;
+    max-width: 100%;
+    
+    }
+
   
   .glavnaya__start{
     display: flex;
     align-items: flex-start;
     margin-right: 50px;
-    width: 1000px;
+    
+    flex-direction: column;
   
   }
   
@@ -75,13 +117,17 @@
   
   
   .glavnaya__spisok{
-    margin-top: -100px;
-    align-items: flex-start;
+    display: flex;
+    
+   justify-content: flex-start;
+   margin-top: 30px;
+   margin-left: 0;
+
   }
   
   .glavnaya__list{
     display: flex;
-    margin-top: 70px;
+   
     
   }
   

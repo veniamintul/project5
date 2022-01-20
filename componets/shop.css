@@ -4,7 +4,8 @@
   align-items: center;
   padding: 65px 50px;
   justify-content: center;
-  height: 100vh; }
+  height: 100vh;
+  background: #F5F5F5; }
 
 .triegle__black__one {
   border: transparent solid 30px;

@@ -1,6 +1,7 @@
 .header{
     
   display: flex;
+  background: #F5F5F5;
   justify-content: space-between;
   align-items: center;
   /*align-items: flex-start;*/
@@ -13,54 +14,19 @@
 
 
 
-  /*.gamburger{
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-    background: #292929;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom:10px ;
-
-    margin-left: 100px;
-  }
-
-  .gamburger:after,.gamburger:before{
-  content: "";
-  width: 30px;
-  height: 5px;
-  border-radius: 2px;
-  background: #292929;
-  position: absolute;
-  }
-
-  .gamburger:after{
-    top: 100%;
-    margin-top: 5px;
-  }
-
-  .gamburger:before{
-    bottom: 100%;
-    margin-bottom: 5px;
-  }
-
-  .gamburger:hover{
-     content: "";
-     transition: 1s;
-  }
-
   
 
 
+//гамбургер для мобильной версии
 
-
-  /*.gamburger{
+  .gamburger{
     height:50px;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    display: none;
     
   }
 
@@ -75,7 +41,7 @@
   }
 
 
-  .gamburger:hover .span__one{
+  /*.gamburger:hover .span__one{
     
     transform: translate(0px,12px) rotate(45deg);
     
@@ -92,6 +58,9 @@
     transform: translate(-1px,-10px) rotate(-45deg);
     
   }*/
+
+
+
 
 
 
