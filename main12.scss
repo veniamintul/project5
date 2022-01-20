@@ -1,40 +1,13 @@
 $containerWidth:1110px;
 $baseFontSize:16px;
 
-$green:#F5F5F5;
-$blue:#F2F5F4;
+$gray:#F5F5F5;
+$blue: #F2F5F4;
 $black:#292929;
-$greendark:#666666;
+$graydark:#666666;
 $red:#E01F3D;
 
 //bottom
-
-
-
-
- /*@import"common";*/
-  
- /*@import "media/adaptive";*/
-  
- //@media (max-width:1100px){
-   //html{font-size: 14px;}
-   //.container{max-width: 700px;}
- //}
- 
- 
- //@media (max-width:768px){
-  // html{font-size: 13px;}
-  // .container{ 
-   //  max-width: 450px;
-  //   flex-direction: column;
-  // }
- //}
- 
-// @media (max-width:480px){
-//  html{font-size: 10px;}
- 
- //}
-
 
 
 
@@ -62,3 +35,110 @@ $red:#E01F3D;
 @import "componets/footer";
 @import "componets/paginator";
 @import "componets/figura";
+
+
+
+
+
+ /*@import"common";*/
+  
+ //@import "adaptive";
+  
+ @media (max-width:1100px){
+  html{font-size: 14px;}
+  .container{max-width: 700px;
+  }
+ 
+}
+
+
+@media (max-width:768px){
+  html{font-size: 13px;}
+  .container{ 
+    max-width: 800px;
+    flex-direction: column;
+  }
+
+  .menu,.contacts{
+    display: none;
+
+  }
+
+  .gamburger{
+    display: block;
+    width: 30px;
+    height: 30px;
+   
+ }
+
+ .header__mobile{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  
+  min-width: 730px;
+}
+
+
+  //.glavnaya__pictures{
+   // }
+
+  .container__glavnaya{
+    flex-direction: column-reverse;
+    min-width: 0;   //при адаптиве обнуляем мин ширину обертки
+    max-width: 450px;  //ьфксимальную делаем меньше следующего медиа запроса
+    width: auto;  
+  }
+ 
+  .glavnaya__pictures{
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
+
+@media (max-width:480px){
+ html{font-size: 12px;}
+  .header{
+    margin-left: 0;
+  }
+ .container{ 
+   max-width: 480px;
+   min-width: 320px;
+  flex-direction: column;
+ }
+ .menu,.contacts{
+  display: none;
+}
+
+.gamburger{
+  display: block;
+ 
+}
+
+.header__mobile{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  
+  min-width: 450px;
+}
+
+
+.container__glavnaya{
+  flex-direction: column-reverse; 
+  min-width: 0;   //при адаптиве обнуляем мин ширину обертки
+  max-width: 200px; 
+  width: auto;  
+}
+
+.glavnaya__pictures{
+  width: 100%;
+}
+ 
+
+}
