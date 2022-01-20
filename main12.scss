@@ -1,0 +1,64 @@
+$containerWidth:1110px;
+$baseFontSize:16px;
+
+$green:#F5F5F5;
+$blue:#F2F5F4;
+$black:#292929;
+$greendark:#666666;
+$red:#E01F3D;
+
+//bottom
+
+
+
+
+ /*@import"common";*/
+  
+ /*@import "media/adaptive";*/
+  
+ //@media (max-width:1100px){
+   //html{font-size: 14px;}
+   //.container{max-width: 700px;}
+ //}
+ 
+ 
+ //@media (max-width:768px){
+  // html{font-size: 13px;}
+  // .container{ 
+   //  max-width: 450px;
+  //   flex-direction: column;
+  // }
+ //}
+ 
+// @media (max-width:480px){
+//  html{font-size: 10px;}
+ 
+ //}
+
+
+
+
+
+@import "layout";
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
+
+
+//header
+
+
+@import "componets/header";
+@import "componets/glavnaya";
+@import "componets/pochemu";
+@import "componets/shop";
+@import "componets/team";
+@import "componets/slider";
+@import "componets/feedback";
+@import "componets/video";
+@import "componets/zacaz";
+@import "componets/map";
+@import "componets/footer";
+@import "componets/paginator";
+@import "componets/figura";
